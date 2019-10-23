@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppShortCut</string>
+    <string name="home_label">Home</string>
+    <string name="settings_label">Settings</string>
+    <string name="profile_label">Profile</string>
+    <string name="map_label">Map</string>
+
+</resources>

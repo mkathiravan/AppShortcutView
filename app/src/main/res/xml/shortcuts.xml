@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+            android:shortcutId="Home"
+            android:enabled="true"
+            android:icon="@drawable/home"
+            android:shortcutShortLabel="@string/home_label">
+
+        <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="net.kathir.myapplication"
+                android:targetClass="net.kathir.myapplication.MainActivity"/>
+    </shortcut>
+
+
+    <shortcut
+            android:shortcutId="Settings"
+            android:enabled="true"
+            android:icon="@drawable/settings"
+            android:shortcutShortLabel="@string/settings_label">
+
+        <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="net.kathir.myapplication"
+                android:targetClass="net.kathir.myapplication.SettingsActivity"/>
+    </shortcut>
+
+
+    <shortcut
+            android:shortcutId="Profile"
+            android:enabled="true"
+            android:icon="@drawable/profile"
+            android:shortcutShortLabel="@string/profile_label">
+
+        <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="net.kathir.myapplication"
+                android:targetClass="net.kathir.myapplication.ProfileActivity"/>
+    </shortcut>
+
+    <shortcut
+            android:shortcutId="Map"
+            android:enabled="true"
+            android:icon="@drawable/map"
+            android:shortcutShortLabel="@string/map_label">
+
+        <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="net.kathir.myapplication"
+                android:targetClass="net.kathir.myapplication.MapActivity"/>
+    </shortcut>
+
+</shortcuts>
